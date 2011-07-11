@@ -610,7 +610,7 @@
     <GUIs>
       <GUIMain>
         <NormalGUI>
-          <OnClick />
+          <OnClick>gStatusline_OnClick</OnClick>
           <Height>30</Height>
           <Width>640</Width>
           <Left>0</Left>
@@ -748,7 +748,7 @@
             <Width>64</Width>
             <Left>256</Left>
             <Top>0</Top>
-            <ZOrder>4</ZOrder>
+            <ZOrder>9</ZOrder>
             <ID>4</ID>
             <Name>btnIconInv</Name>
           </GUIButton>
@@ -769,7 +769,7 @@
             <Width>64</Width>
             <Left>320</Left>
             <Top>0</Top>
-            <ZOrder>5</ZOrder>
+            <ZOrder>4</ZOrder>
             <ID>5</ID>
             <Name>btnIconCurInv</Name>
           </GUIButton>
@@ -790,7 +790,7 @@
             <Width>64</Width>
             <Left>384</Left>
             <Top>0</Top>
-            <ZOrder>6</ZOrder>
+            <ZOrder>5</ZOrder>
             <ID>6</ID>
             <Name>btnIconSave</Name>
           </GUIButton>
@@ -811,7 +811,7 @@
             <Width>64</Width>
             <Left>448</Left>
             <Top>0</Top>
-            <ZOrder>7</ZOrder>
+            <ZOrder>8</ZOrder>
             <ID>7</ID>
             <Name>btnIconLoad</Name>
           </GUIButton>
@@ -832,7 +832,7 @@
             <Width>64</Width>
             <Left>512</Left>
             <Top>0</Top>
-            <ZOrder>8</ZOrder>
+            <ZOrder>6</ZOrder>
             <ID>8</ID>
             <Name>btnIconExit</Name>
           </GUIButton>
@@ -853,7 +853,7 @@
             <Width>64</Width>
             <Left>576</Left>
             <Top>0</Top>
-            <ZOrder>9</ZOrder>
+            <ZOrder>7</ZOrder>
             <ID>9</ID>
             <Name>btnIconAbout</Name>
           </GUIButton>
@@ -1821,27 +1821,27 @@
       <Character>
         <ID>0</ID>
         <ScriptName>cSeba</ScriptName>
-        <RealName>ROGER</RealName>
+        <RealName>Sebastian</RealName>
         <NormalView>1</NormalView>
         <SpeechView>0</SpeechView>
-        <IdleView>0</IdleView>
+        <IdleView>2</IdleView>
         <ThinkingView>0</ThinkingView>
         <BlinkingView>0</BlinkingView>
         <StartingRoom>1</StartingRoom>
         <StartX>320</StartX>
         <StartY>350</StartY>
         <UniformMovementSpeed>True</UniformMovementSpeed>
-        <MovementSpeed>3</MovementSpeed>
+        <MovementSpeed>6</MovementSpeed>
         <MovementSpeedX>3</MovementSpeedX>
         <MovementSpeedY>0</MovementSpeedY>
-        <AnimationDelay>4</AnimationDelay>
+        <AnimationDelay>2</AnimationDelay>
         <SpeechAnimationDelay>5</SpeechAnimationDelay>
         <SpeechColor>12</SpeechColor>
         <Solid>True</Solid>
         <Clickable>True</Clickable>
         <UseRoomAreaScaling>True</UseRoomAreaScaling>
         <UseRoomAreaLighting>True</UseRoomAreaLighting>
-        <TurnBeforeWalking>True</TurnBeforeWalking>
+        <TurnBeforeWalking>False</TurnBeforeWalking>
         <DiagonalLoops>True</DiagonalLoops>
         <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
         <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
@@ -2287,59 +2287,189 @@ return
           <SpriteFolder Name="Defaults">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="2000" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2001" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2002" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2003" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2004" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2005" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2006" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2007" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2008" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2009" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2010" Width="11" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2011" Width="11" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2012" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2013" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2014" Width="17" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2015" Width="12" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2016" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2017" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2018" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2019" Width="11" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2020" Width="11" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2021" Width="11" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2022" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2023" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2024" Width="17" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2025" Width="12" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2026" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2027" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2028" Width="15" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2029" Width="11" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2030" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2031" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2032" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2033" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2034" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2035" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2036" Width="16" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2037" Width="16" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2038" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2039" Width="18" Height="40" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2000" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00006.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2001" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00007.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2002" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00008.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2003" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00009.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2004" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00010.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2005" Width="71" Height="264" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00011.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2006" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00012.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2010" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00021.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2011" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00022.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2012" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00023.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2013" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00024.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2014" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00025.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2015" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00026.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2020" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00027.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2021" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00028.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2022" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00029.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2023" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00030.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2024" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00031.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2025" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00032.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2030" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00013.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2031" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00015.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2032" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00016.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2033" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00017.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2034" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00018.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2035" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00019.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2036" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00020.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="2040" Width="14" Height="14" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2041" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2041" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\watch.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="2042" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2043" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2044" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2045" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2046" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2047" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2048" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2049" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2050" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2051" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2052" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2044" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\walk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2045" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\watch.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2046" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\take.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2047" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\talk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2048" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\bag.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2049" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\item.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2050" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\save.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2051" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\load.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2052" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\exit.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="2053" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2054" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2055" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -2351,6 +2481,11 @@ return
               <Sprite Slot="2061" Width="16" Height="17" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="1" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="4" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="6" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00014.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="gSaveGameImport">
@@ -2427,27 +2562,6 @@ return
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2007</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2008</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2009</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
                 </Frames>
               </Loop>
               <Loop>
@@ -2456,7 +2570,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2010</Image>
+                    <Image>2000</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2470,56 +2584,35 @@ return
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2012</Image>
+                    <Image>2011</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2013</Image>
+                    <Image>2012</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2014</Image>
+                    <Image>2013</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2015</Image>
+                    <Image>2014</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2016</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2017</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2018</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2019</Image>
+                    <Image>2015</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2532,7 +2625,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2020</Image>
+                    <Image>6</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2546,56 +2639,35 @@ return
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2022</Image>
+                    <Image>2021</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2023</Image>
+                    <Image>2022</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2024</Image>
+                    <Image>2023</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2025</Image>
+                    <Image>2024</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2026</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2027</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2028</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2029</Image>
+                    <Image>2025</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2655,27 +2727,6 @@ return
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2037</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2038</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2039</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
                 </Frames>
               </Loop>
             </Loops>
@@ -2687,7 +2738,15 @@ return
               <Loop>
                 <ID>0</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames />
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>2000</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
             </Loops>
           </View>
