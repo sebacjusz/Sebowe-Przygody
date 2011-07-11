@@ -610,28 +610,8 @@
     <GUIs>
       <GUIMain>
         <NormalGUI>
-          <OnClick>gStatusline_OnClick</OnClick>
-          <Height>30</Height>
-          <Width>640</Width>
-          <Left>0</Left>
-          <Top>0</Top>
-          <Clickable>True</Clickable>
-          <Visibility>Normal</Visibility>
-          <PopupYPos>0</PopupYPos>
-          <ZOrder>0</ZOrder>
-          <BorderColor>1</BorderColor>
-          <Transparency>0</Transparency>
-          <BackgroundColor>8</BackgroundColor>
-          <BackgroundImage>0</BackgroundImage>
-          <ID>0</ID>
-          <Name>gStatusline</Name>
-        </NormalGUI>
-        <Controls />
-      </GUIMain>
-      <GUIMain>
-        <NormalGUI>
           <OnClick />
-          <Height>63</Height>
+          <Height>53</Height>
           <Width>640</Width>
           <Left>0</Left>
           <Top>0</Top>
@@ -641,9 +621,9 @@
           <ZOrder>1</ZOrder>
           <BorderColor>1</BorderColor>
           <Transparency>0</Transparency>
-          <BackgroundColor>8</BackgroundColor>
+          <BackgroundColor>0</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
-          <ID>1</ID>
+          <ID>0</ID>
           <Name>gIconbar</Name>
         </NormalGUI>
         <Controls>
@@ -659,7 +639,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2044</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>0</Left>
@@ -680,7 +660,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2045</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>64</Left>
@@ -701,7 +681,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2046</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>128</Left>
@@ -722,7 +702,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2047</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>192</Left>
@@ -743,7 +723,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2048</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>256</Left>
@@ -764,7 +744,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2049</Image>
             <Text>(INVSHR)</Text>
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>320</Left>
@@ -785,7 +765,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2050</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>384</Left>
@@ -806,7 +786,7 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2051</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>448</Left>
@@ -827,10 +807,10 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2052</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
-            <Left>512</Left>
+            <Left>576</Left>
             <Top>0</Top>
             <ZOrder>6</ZOrder>
             <ID>8</ID>
@@ -848,10 +828,10 @@
             <MouseoverImage>0</MouseoverImage>
             <Image>2053</Image>
             <Text />
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
-            <Left>576</Left>
+            <Left>512</Left>
             <Top>0</Top>
             <ZOrder>7</ZOrder>
             <ID>9</ID>
@@ -874,7 +854,7 @@
           <Transparency>0</Transparency>
           <BackgroundColor>7</BackgroundColor>
           <BackgroundImage>-1</BackgroundImage>
-          <ID>2</ID>
+          <ID>1</ID>
           <Name>gInventory</Name>
         </NormalGUI>
         <Controls>
@@ -1013,7 +993,7 @@
           <Transparency>0</Transparency>
           <BackgroundColor>8</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
-          <ID>3</ID>
+          <ID>2</ID>
           <Name>gPanel</Name>
         </NormalGUI>
         <Controls>
@@ -1326,7 +1306,7 @@
           <Transparency>0</Transparency>
           <BackgroundColor>7</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
-          <ID>4</ID>
+          <ID>3</ID>
           <Name>gRestartYN</Name>
         </NormalGUI>
         <Controls>
@@ -1403,7 +1383,7 @@
           <Transparency>0</Transparency>
           <BackgroundColor>7</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
-          <ID>5</ID>
+          <ID>4</ID>
           <Name>gSaveGame</Name>
         </NormalGUI>
         <Controls>
@@ -1534,7 +1514,7 @@
           <Transparency>0</Transparency>
           <BackgroundColor>7</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
-          <ID>6</ID>
+          <ID>5</ID>
           <Name>gRestoreGame</Name>
         </NormalGUI>
         <Controls>
@@ -2470,13 +2450,41 @@ return
                   <FileName>J:\sebaadventure_work\hud\exit.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="2053" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2054" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2055" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2056" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2057" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2058" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2059" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2053" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\settings.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2054" Width="41" Height="40" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\cur\walk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2055" Width="41" Height="40" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\cur\wait.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2056" Width="41" Height="40" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\cur\pacz.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2057" Width="41" Height="40" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\cur\take.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2058" Width="41" Height="40" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\cur\talk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2059" Width="41" Height="40" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\cur\item.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="2060" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2061" Width="16" Height="17" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="1" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
