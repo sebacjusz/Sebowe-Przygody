@@ -7,7 +7,7 @@
       <UniqueID>2804429</UniqueID>
       <GUIDAsString>{92049973-c81e-40b3-9e40-80e047053597}</GUIDAsString>
       <ColorDepth>TrueColor</ColorDepth>
-      <Resolution>R640x480</Resolution>
+      <Resolution>R800x600</Resolution>
       <GraphicsDriver>DX5</GraphicsDriver>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
@@ -17,7 +17,7 @@
       <TurnBeforeFacing>False</TurnBeforeFacing>
       <TurnBeforeWalking>True</TurnBeforeWalking>
       <SplitResources>0</SplitResources>
-      <LetterboxMode>True</LetterboxMode>
+      <LetterboxMode>False</LetterboxMode>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <PixelPerfect>True</PixelPerfect>
       <WhenInterfaceDisabled>GreyOut</WhenInterfaceDisabled>
@@ -606,13 +606,17 @@
         <Number>1</Number>
         <Description>bramka</Description>
       </UnloadedRoom>
+      <UnloadedRoom>
+        <Number>0</Number>
+        <Description IsNull="True" />
+      </UnloadedRoom>
     </Rooms>
     <GUIs>
       <GUIMain>
         <NormalGUI>
           <OnClick />
           <Height>53</Height>
-          <Width>640</Width>
+          <Width>800</Width>
           <Left>0</Left>
           <Top>0</Top>
           <Clickable>True</Clickable>
@@ -835,7 +839,7 @@
             <Top>0</Top>
             <ZOrder>7</ZOrder>
             <ID>9</ID>
-            <Name>btnIconAbout</Name>
+            <Name>btnIconSettings</Name>
           </GUIButton>
         </Controls>
       </GUIMain>
@@ -1804,7 +1808,7 @@
         <RealName>Sebastian</RealName>
         <NormalView>1</NormalView>
         <SpeechView>0</SpeechView>
-        <IdleView>2</IdleView>
+        <IdleView>1</IdleView>
         <ThinkingView>0</ThinkingView>
         <BlinkingView>0</BlinkingView>
         <StartingRoom>1</StartingRoom>
@@ -1822,7 +1826,7 @@
         <UseRoomAreaScaling>True</UseRoomAreaScaling>
         <UseRoomAreaLighting>True</UseRoomAreaLighting>
         <TurnBeforeWalking>False</TurnBeforeWalking>
-        <DiagonalLoops>True</DiagonalLoops>
+        <DiagonalLoops>False</DiagonalLoops>
         <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
         <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
         <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
@@ -2739,29 +2743,12 @@ return
               </Loop>
             </Loops>
           </View>
-          <View>
-            <ID>2</ID>
-            <Name>VIEW2</Name>
-            <Loops>
-              <Loop>
-                <ID>0</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <ID>0</ID>
-                    <Image>2000</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-            </Loops>
-          </View>
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>2</ViewID>
+    </DeletedViews>
     <Scripts>
       <Script>
         <FileName>KeyboardMovement_102.ash</FileName>
