@@ -14,7 +14,7 @@
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <UseLowResCoordinatesInScript>False</UseLowResCoordinatesInScript>
-      <TurnBeforeFacing>False</TurnBeforeFacing>
+      <TurnBeforeFacing>True</TurnBeforeFacing>
       <TurnBeforeWalking>True</TurnBeforeWalking>
       <SplitResources>0</SplitResources>
       <LetterboxMode>True</LetterboxMode>
@@ -27,7 +27,7 @@
       <InventoryHotspotMarkerSprite>0</InventoryHotspotMarkerSprite>
       <InventoryHotspotMarkerDotColor>0</InventoryHotspotMarkerDotColor>
       <InventoryHotspotMarkerCrosshairColor>0</InventoryHotspotMarkerCrosshairColor>
-      <WalkInLookMode>False</WalkInLookMode>
+      <WalkInLookMode>True</WalkInLookMode>
       <AntiGlideMode>True</AntiGlideMode>
       <DebugMode>True</DebugMode>
       <InventoryCursors>True</InventoryCursors>
@@ -616,7 +616,7 @@
         <NormalGUI>
           <OnClick />
           <Height>53</Height>
-          <Width>800</Width>
+          <Width>640</Width>
           <Left>0</Left>
           <Top>0</Top>
           <Clickable>True</Clickable>
@@ -1813,9 +1813,9 @@
         <BlinkingView>0</BlinkingView>
         <StartingRoom>0</StartingRoom>
         <StartX>400</StartX>
-        <StartY>550</StartY>
+        <StartY>464</StartY>
         <UniformMovementSpeed>True</UniformMovementSpeed>
-        <MovementSpeed>6</MovementSpeed>
+        <MovementSpeed>2</MovementSpeed>
         <MovementSpeedX>3</MovementSpeedX>
         <MovementSpeedY>0</MovementSpeedY>
         <AnimationDelay>2</AnimationDelay>
@@ -1829,7 +1829,7 @@
         <DiagonalLoops>False</DiagonalLoops>
         <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
         <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-        <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+        <MovementLinkedToAnimation>False</MovementLinkedToAnimation>
         <Properties />
         <Interactions>
           <Event Index="0">cEgo_Look</Event>
@@ -1989,7 +1989,7 @@ return
       </Font>
       <Font>
         <ID>1</ID>
-        <PointSize>10</PointSize>
+        <PointSize>9</PointSize>
         <Name>Speech</Name>
         <OutlineFont>2</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
@@ -2545,21 +2545,202 @@ return
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Seba">
-            <SubFolders />
+            <SubFolders>
+              <SpriteFolder Name="walk">
+                <SubFolders>
+                  <SpriteFolder Name="left">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="16" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00021.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="17" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00022.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="18" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00023.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="19" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00024.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="20" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00025.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="21" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00026.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="right">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="15" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00027.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="22" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00028.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="23" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00029.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="24" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00030.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="25" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00031.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="26" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00032.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="down">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="27" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00007.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="28" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00008.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="29" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00009.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="30" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00010.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="31" Width="71" Height="264" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00011.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="32" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00012.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="up">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="33" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00015.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="34" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00016.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="35" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00017.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="36" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00018.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="37" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00019.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="38" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00020.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="talk">
+                <SubFolders>
+                  <SpriteFolder Name="left">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="40" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00033.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="41" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00034.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="right">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="42" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00035.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="43" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>J:\sebaadventure_work\sebastian\spr00036.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
+            </SubFolders>
             <Sprites>
               <Sprite Slot="13" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00014.png</FileName>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00006.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="14" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00035.png</FileName>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00014.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="15" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="39" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00036.png</FileName>
+                  <FileName>J:\sebaadventure_work\sebastian\spr00013.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -2587,49 +2768,49 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2000</Image>
+                    <Image>13</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2001</Image>
+                    <Image>27</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2002</Image>
+                    <Image>28</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2003</Image>
+                    <Image>29</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2004</Image>
+                    <Image>30</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2005</Image>
+                    <Image>31</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2006</Image>
+                    <Image>32</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2642,49 +2823,49 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2000</Image>
+                    <Image>13</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2011</Image>
+                    <Image>16</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2011</Image>
+                    <Image>17</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2012</Image>
+                    <Image>18</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2013</Image>
+                    <Image>19</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2014</Image>
+                    <Image>20</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2015</Image>
+                    <Image>21</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2697,49 +2878,49 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>6</Image>
+                    <Image>14</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2021</Image>
+                    <Image>15</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2021</Image>
+                    <Image>22</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2022</Image>
+                    <Image>23</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2023</Image>
+                    <Image>24</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2024</Image>
+                    <Image>25</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2025</Image>
+                    <Image>26</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2752,49 +2933,49 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2030</Image>
+                    <Image>39</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2031</Image>
+                    <Image>33</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2032</Image>
+                    <Image>34</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2033</Image>
+                    <Image>35</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2034</Image>
+                    <Image>36</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2035</Image>
+                    <Image>37</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2036</Image>
+                    <Image>38</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2809,6 +2990,19 @@ return
             <Loops>
               <Loop>
                 <ID>0</ID>
+                <RunNextLoop>True</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>13</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
@@ -2820,35 +3014,96 @@ return
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>14</Image>
+                    <Image>40</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>15</Image>
+                    <Image>41</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>14</Image>
+                    <Image>40</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>15</Image>
+                    <Image>41</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
+                    <Image>40</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
                     <Image>14</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>42</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>43</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>42</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>43</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>42</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>39</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
