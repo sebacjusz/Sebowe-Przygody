@@ -7,7 +7,7 @@
       <UniqueID>2804429</UniqueID>
       <GUIDAsString>{92049973-c81e-40b3-9e40-80e047053597}</GUIDAsString>
       <ColorDepth>TrueColor</ColorDepth>
-      <Resolution>R800x600</Resolution>
+      <Resolution>R640x480</Resolution>
       <GraphicsDriver>DX5</GraphicsDriver>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
@@ -17,7 +17,7 @@
       <TurnBeforeFacing>False</TurnBeforeFacing>
       <TurnBeforeWalking>True</TurnBeforeWalking>
       <SplitResources>0</SplitResources>
-      <LetterboxMode>False</LetterboxMode>
+      <LetterboxMode>True</LetterboxMode>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <PixelPerfect>True</PixelPerfect>
       <WhenInterfaceDisabled>GreyOut</WhenInterfaceDisabled>
