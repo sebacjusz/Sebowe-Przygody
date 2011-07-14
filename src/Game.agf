@@ -1981,24 +1981,24 @@ return
     <Fonts>
       <Font>
         <ID>0</ID>
-        <PointSize>0</PointSize>
+        <PointSize>9</PointSize>
         <Name>Normal</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <SourceFilename />
+        <SourceFilename>J:\sebaadventure_work\verdana_seba.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>1</ID>
-        <PointSize>9</PointSize>
+        <PointSize>8</PointSize>
         <Name>Speech</Name>
         <OutlineFont>2</OutlineFont>
-        <OutlineStyle>None</OutlineStyle>
-        <SourceFilename>J:\sebaadventure_work\verdana.ttf</SourceFilename>
+        <OutlineStyle>Automatic</OutlineStyle>
+        <SourceFilename>J:\sebaadventure_work\verdana_seba.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>2</ID>
         <PointSize>0</PointSize>
-        <Name>SpeechOutline</Name>
+        <Name>_del</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename />
@@ -2271,136 +2271,6 @@ return
           <SpriteFolder Name="Defaults">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="2000" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00006.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2001" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00007.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2002" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00008.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2003" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00009.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2004" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00010.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2005" Width="71" Height="264" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00011.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2006" Width="81" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00012.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2010" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00021.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2011" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00022.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2012" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00023.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2013" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00024.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2014" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00025.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2015" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00026.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2020" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00027.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2021" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00028.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2022" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00029.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2023" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00030.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2024" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00031.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2025" Width="96" Height="263" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00032.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2030" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00013.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2031" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00015.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2032" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00016.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2033" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00017.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2034" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00018.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2035" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00019.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2036" Width="98" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00020.png</FileName>
-                </Source>
-              </Sprite>
               <Sprite Slot="2040" Width="14" Height="14" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2041" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
@@ -2493,11 +2363,6 @@ return
               <Sprite Slot="2061" Width="16" Height="17" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="1" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="4" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="6" Width="72" Height="269" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-                <Source>
-                  <FileName>J:\sebaadventure_work\sebastian\spr00014.png</FileName>
-                </Source>
-              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="gSaveGameImport">
@@ -2721,6 +2586,27 @@ return
                           <FileName>J:\sebaadventure_work\sebastian\spr00036.png</FileName>
                         </Source>
                       </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="take">
+                <SubFolders>
+                  <SpriteFolder Name="left">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="6" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="44" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="45" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="46" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="47" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="48" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="49" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="50" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="51" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="52" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
+                      <Sprite Slot="53" Width="100" Height="300" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
@@ -3112,6 +2998,95 @@ return
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>3</ID>
+            <Name>misc</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>6</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>44</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>45</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>46</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>47</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>48</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>49</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>50</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>51</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>52</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>53</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -3176,7 +3151,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_klatka</ScriptName>
@@ -3188,7 +3163,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_pokoj1</ScriptName>
@@ -3200,7 +3175,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_pokoj2_niemagaly</ScriptName>
@@ -3212,7 +3187,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
