@@ -9,7 +9,7 @@
       <ColorDepth>TrueColor</ColorDepth>
       <Resolution>R640x480</Resolution>
       <GraphicsDriver>DX5</GraphicsDriver>
-      <CompressSprites>False</CompressSprites>
+      <CompressSprites>True</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <MouseWheelEnabled>True</MouseWheelEnabled>
@@ -32,7 +32,7 @@
       <DebugMode>True</DebugMode>
       <InventoryCursors>True</InventoryCursors>
       <HandleInvClicksInScript>False</HandleInvClicksInScript>
-      <DisplayMultipleInventory>False</DisplayMultipleInventory>
+      <DisplayMultipleInventory>True</DisplayMultipleInventory>
       <EnforceObjectBasedScript>True</EnforceObjectBasedScript>
       <EnforceNewStrings>True</EnforceNewStrings>
       <EnforceNewAudio>True</EnforceNewAudio>
@@ -1611,7 +1611,7 @@
         <Name>iScyzor</Name>
         <Properties />
         <Interactions>
-          <Event Index="0" />
+          <Event Index="0">iScyzor_Look</Event>
           <Event Index="1" />
           <Event Index="2" />
           <Event Index="3" />
@@ -1629,7 +1629,7 @@
         <Name>iMoH</Name>
         <Properties />
         <Interactions>
-          <Event Index="0" />
+          <Event Index="0">iMoH_Look</Event>
           <Event Index="1" />
           <Event Index="2" />
           <Event Index="3" />
@@ -1823,9 +1823,9 @@
         <SpeechColor>12</SpeechColor>
         <Solid>True</Solid>
         <Clickable>True</Clickable>
-        <UseRoomAreaScaling>True</UseRoomAreaScaling>
+        <UseRoomAreaScaling>False</UseRoomAreaScaling>
         <UseRoomAreaLighting>True</UseRoomAreaLighting>
-        <TurnBeforeWalking>False</TurnBeforeWalking>
+        <TurnBeforeWalking>True</TurnBeforeWalking>
         <DiagonalLoops>False</DiagonalLoops>
         <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
         <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
@@ -3176,7 +3176,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_klatka</ScriptName>
@@ -3188,7 +3188,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_pokoj1</ScriptName>
@@ -3200,7 +3200,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_pokoj2_niemagaly</ScriptName>
@@ -3212,7 +3212,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
