@@ -1815,9 +1815,9 @@
         <IdleView>1</IdleView>
         <ThinkingView>0</ThinkingView>
         <BlinkingView>0</BlinkingView>
-        <StartingRoom>2</StartingRoom>
-        <StartX>275</StartX>
-        <StartY>424</StartY>
+        <StartingRoom>0</StartingRoom>
+        <StartX>435</StartX>
+        <StartY>464</StartY>
         <UniformMovementSpeed>True</UniformMovementSpeed>
         <MovementSpeed>2</MovementSpeed>
         <MovementSpeedX>3</MovementSpeedX>
@@ -2267,7 +2267,18 @@ return
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <Name>r0_PradSprawdzony</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>r2_KorkiSprawdzone</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -2384,6 +2395,11 @@ return
               <Sprite Slot="8" Width="22" Height="13" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>J:\sebaadventure_work\room\0(pokój seby)\scyzor_obj.bmp</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="54" Width="180" Height="121" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\2(klatka)\bezpieczniki.bmp</FileName>
                 </Source>
               </Sprite>
             </Sprites>
