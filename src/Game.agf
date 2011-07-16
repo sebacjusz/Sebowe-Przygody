@@ -610,6 +610,10 @@
         <Number>0</Number>
         <Description>Pokój</Description>
       </UnloadedRoom>
+      <UnloadedRoom>
+        <Number>2</Number>
+        <Description>klatka</Description>
+      </UnloadedRoom>
     </Rooms>
     <GUIs>
       <GUIMain>
@@ -1811,9 +1815,9 @@
         <IdleView>1</IdleView>
         <ThinkingView>0</ThinkingView>
         <BlinkingView>0</BlinkingView>
-        <StartingRoom>0</StartingRoom>
-        <StartX>400</StartX>
-        <StartY>464</StartY>
+        <StartingRoom>2</StartingRoom>
+        <StartX>275</StartX>
+        <StartY>424</StartY>
         <UniformMovementSpeed>True</UniformMovementSpeed>
         <MovementSpeed>2</MovementSpeed>
         <MovementSpeedX>3</MovementSpeedX>
@@ -3151,7 +3155,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 23:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_klatka</ScriptName>
@@ -3163,7 +3167,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 23:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_pokoj1</ScriptName>
@@ -3175,7 +3179,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 23:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aSeba_pokoj2_niemagaly</ScriptName>
@@ -3187,7 +3191,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 20:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 23:25:08Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
