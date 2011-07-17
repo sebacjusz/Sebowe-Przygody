@@ -1816,8 +1816,8 @@
         <ThinkingView>0</ThinkingView>
         <BlinkingView>0</BlinkingView>
         <StartingRoom>0</StartingRoom>
-        <StartX>435</StartX>
-        <StartY>464</StartY>
+        <StartX>457</StartX>
+        <StartY>467</StartY>
         <UniformMovementSpeed>True</UniformMovementSpeed>
         <MovementSpeed>2</MovementSpeed>
         <MovementSpeedX>3</MovementSpeedX>
@@ -2274,7 +2274,7 @@ return
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>r2_KorkiSprawdzone</Name>
+          <Name>r2_NieMaGaly</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -2400,6 +2400,11 @@ return
               <Sprite Slot="54" Width="180" Height="121" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>J:\sebaadventure_work\room\2(klatka)\bezpieczniki.bmp</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="55" Width="51" Height="47" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\0(pokój seby)\gaua.bmp</FileName>
                 </Source>
               </Sprite>
             </Sprites>
