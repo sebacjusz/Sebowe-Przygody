@@ -645,7 +645,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2044</Image>
+            <Image>70</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -666,7 +666,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2045</Image>
+            <Image>64</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -687,7 +687,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2046</Image>
+            <Image>68</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -708,7 +708,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2047</Image>
+            <Image>68</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -729,7 +729,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2048</Image>
+            <Image>60</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -750,7 +750,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2049</Image>
+            <Image>61</Image>
             <Text>(INVSHR)</Text>
             <Height>53</Height>
             <Locked>False</Locked>
@@ -771,7 +771,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2050</Image>
+            <Image>65</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -792,7 +792,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2051</Image>
+            <Image>62</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -813,7 +813,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2052</Image>
+            <Image>59</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -834,7 +834,7 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2053</Image>
+            <Image>67</Image>
             <Text />
             <Height>53</Height>
             <Locked>False</Locked>
@@ -889,9 +889,9 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2042</Image>
+            <Image>66</Image>
             <Text xml:space="preserve">New Button</Text>
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>90</Left>
@@ -910,9 +910,9 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2041</Image>
+            <Image>64</Image>
             <Text xml:space="preserve">New Button</Text>
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>10</Left>
@@ -931,9 +931,9 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>2043</Image>
+            <Image>63</Image>
             <Text xml:space="preserve">New Button</Text>
-            <Height>63</Height>
+            <Height>53</Height>
             <Locked>False</Locked>
             <Width>64</Width>
             <Left>170</Left>
@@ -952,11 +952,11 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>1</Image>
+            <Image>2</Image>
             <Text xml:space="preserve">New Button</Text>
-            <Height>40</Height>
+            <Height>36</Height>
             <Locked>False</Locked>
-            <Width>40</Width>
+            <Width>37</Width>
             <Left>396</Left>
             <Top>132</Top>
             <ZOrder>4</ZOrder>
@@ -973,11 +973,11 @@
             <Font>0</Font>
             <PushedImage>0</PushedImage>
             <MouseoverImage>0</MouseoverImage>
-            <Image>4</Image>
+            <Image>3</Image>
             <Text xml:space="preserve">New Button</Text>
-            <Height>48</Height>
+            <Height>36</Height>
             <Locked>False</Locked>
-            <Width>40</Width>
+            <Width>37</Width>
             <Left>396</Left>
             <Top>75</Top>
             <ZOrder>5</ZOrder>
@@ -2328,64 +2328,6 @@ return
           <SpriteFolder Name="Defaults">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="2040" Width="14" Height="14" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2041" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\watch.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2042" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2043" Width="32" Height="27" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2044" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\walk.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2045" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\watch.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2046" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\take.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2047" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\talk.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2048" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\bag.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2049" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\item.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2050" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\save.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2051" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\load.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2052" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\exit.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2053" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>J:\sebaadventure_work\hud\settings.png</FileName>
-                </Source>
-              </Sprite>
               <Sprite Slot="2054" Width="41" Height="40" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>J:\sebaadventure_work\cur\walk.png</FileName>
@@ -2418,8 +2360,6 @@ return
               </Sprite>
               <Sprite Slot="2060" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2061" Width="16" Height="17" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="1" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
-              <Sprite Slot="4" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="False" />
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="gSaveGameImport">
@@ -2713,12 +2653,84 @@ return
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="hud">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="59" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\exit.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="60" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\inventory.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="61" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\item.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="62" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\load.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="63" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\okejka.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="64" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\paczaj.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="65" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\save.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="66" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\select.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="67" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\settings.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\take.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\talk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="70" Width="64" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\walk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2" Width="37" Height="36" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\inv_arrow_down.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="3" Width="37" Height="36" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\hud\inv_arrow_up.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="2" Width="11" Height="4" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="3" Width="11" Height="11" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="5" Width="36" Height="26" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
         </Sprites>
       </SpriteFolder>
     </Sprites>
