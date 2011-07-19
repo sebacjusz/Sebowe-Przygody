@@ -614,6 +614,10 @@
         <Number>2</Number>
         <Description>klatka</Description>
       </UnloadedRoom>
+      <UnloadedRoom>
+        <Number>999</Number>
+        <Description>title</Description>
+      </UnloadedRoom>
     </Rooms>
     <GUIs>
       <GUIMain>
@@ -858,9 +862,9 @@
           <Visibility>PopupModal</Visibility>
           <PopupYPos>0</PopupYPos>
           <ZOrder>2</ZOrder>
-          <BorderColor>8</BorderColor>
+          <BorderColor>0</BorderColor>
           <Transparency>0</Transparency>
-          <BackgroundColor>7</BackgroundColor>
+          <BackgroundColor>40960</BackgroundColor>
           <BackgroundImage>-1</BackgroundImage>
           <ID>1</ID>
           <Name>gInventory</Name>
@@ -996,10 +1000,10 @@
           <Clickable>True</Clickable>
           <Visibility>PopupModal</Visibility>
           <PopupYPos>0</PopupYPos>
-          <ZOrder>0</ZOrder>
-          <BorderColor>2</BorderColor>
+          <ZOrder>10</ZOrder>
+          <BorderColor>0</BorderColor>
           <Transparency>0</Transparency>
-          <BackgroundColor>8</BackgroundColor>
+          <BackgroundColor>40960</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
           <ID>2</ID>
           <Name>gPanel</Name>
@@ -1309,10 +1313,10 @@
           <Clickable>True</Clickable>
           <Visibility>PopupModal</Visibility>
           <PopupYPos>0</PopupYPos>
-          <ZOrder>0</ZOrder>
-          <BorderColor>7</BorderColor>
+          <ZOrder>99</ZOrder>
+          <BorderColor>0</BorderColor>
           <Transparency>0</Transparency>
-          <BackgroundColor>7</BackgroundColor>
+          <BackgroundColor>40960</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
           <ID>3</ID>
           <Name>gRestartYN</Name>
@@ -1386,10 +1390,10 @@
           <Clickable>True</Clickable>
           <Visibility>PopupModal</Visibility>
           <PopupYPos>0</PopupYPos>
-          <ZOrder>0</ZOrder>
-          <BorderColor>8</BorderColor>
+          <ZOrder>11</ZOrder>
+          <BorderColor>0</BorderColor>
           <Transparency>0</Transparency>
-          <BackgroundColor>7</BackgroundColor>
+          <BackgroundColor>40960</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
           <ID>4</ID>
           <Name>gSaveGame</Name>
@@ -1517,10 +1521,10 @@
           <Clickable>True</Clickable>
           <Visibility>PopupModal</Visibility>
           <PopupYPos>0</PopupYPos>
-          <ZOrder>0</ZOrder>
-          <BorderColor>8</BorderColor>
+          <ZOrder>11</ZOrder>
+          <BorderColor>0</BorderColor>
           <Transparency>0</Transparency>
-          <BackgroundColor>7</BackgroundColor>
+          <BackgroundColor>40960</BackgroundColor>
           <BackgroundImage>0</BackgroundImage>
           <ID>5</ID>
           <Name>gRestoreGame</Name>
@@ -1612,7 +1616,7 @@
           <Clickable>True</Clickable>
           <Visibility>NormalButInitiallyOff</Visibility>
           <PopupYPos>0</PopupYPos>
-          <ZOrder>20</ZOrder>
+          <ZOrder>5</ZOrder>
           <BorderColor>0</BorderColor>
           <Transparency>0</Transparency>
           <BackgroundColor>0</BackgroundColor>
@@ -1641,6 +1645,90 @@
             <ZOrder>0</ZOrder>
             <ID>0</ID>
             <Name>bKartka</Name>
+          </GUIButton>
+        </Controls>
+      </GUIMain>
+      <GUIMain>
+        <NormalGUI>
+          <OnClick />
+          <Height>480</Height>
+          <Width>640</Width>
+          <Left>0</Left>
+          <Top>0</Top>
+          <Clickable>True</Clickable>
+          <Visibility>PopupModal</Visibility>
+          <PopupYPos>0</PopupYPos>
+          <ZOrder>5</ZOrder>
+          <BorderColor>2</BorderColor>
+          <Transparency>0</Transparency>
+          <BackgroundColor>8</BackgroundColor>
+          <BackgroundImage>72</BackgroundImage>
+          <ID>7</ID>
+          <Name>gTitle</Name>
+        </NormalGUI>
+        <Controls>
+          <GUIButton>
+            <OnClick>bQuit_OnClick</OnClick>
+            <ClickAction>RunScript</ClickAction>
+            <NewModeNumber>0</NewModeNumber>
+            <ClipImage>True</ClipImage>
+            <TextAlignment>TopMiddle</TextAlignment>
+            <TextColor>0</TextColor>
+            <Font>0</Font>
+            <PushedImage>0</PushedImage>
+            <MouseoverImage>0</MouseoverImage>
+            <Image>5</Image>
+            <Text xml:space="preserve">New Button</Text>
+            <Height>38</Height>
+            <Locked>False</Locked>
+            <Width>96</Width>
+            <Left>268</Left>
+            <Top>423</Top>
+            <ZOrder>0</ZOrder>
+            <ID>0</ID>
+            <Name>bQuit</Name>
+          </GUIButton>
+          <GUIButton>
+            <OnClick>bOpcje_OnClick</OnClick>
+            <ClickAction>RunScript</ClickAction>
+            <NewModeNumber>0</NewModeNumber>
+            <ClipImage>True</ClipImage>
+            <TextAlignment>TopMiddle</TextAlignment>
+            <TextColor>0</TextColor>
+            <Font>0</Font>
+            <PushedImage>0</PushedImage>
+            <MouseoverImage>0</MouseoverImage>
+            <Image>4</Image>
+            <Text xml:space="preserve">New Button</Text>
+            <Height>37</Height>
+            <Locked>False</Locked>
+            <Width>87</Width>
+            <Left>274</Left>
+            <Top>377</Top>
+            <ZOrder>1</ZOrder>
+            <ID>1</ID>
+            <Name>bOpcje</Name>
+          </GUIButton>
+          <GUIButton>
+            <OnClick>bStart_OnClick</OnClick>
+            <ClickAction>RunScript</ClickAction>
+            <NewModeNumber>0</NewModeNumber>
+            <ClipImage>True</ClipImage>
+            <TextAlignment>TopMiddle</TextAlignment>
+            <TextColor>0</TextColor>
+            <Font>0</Font>
+            <PushedImage>0</PushedImage>
+            <MouseoverImage>0</MouseoverImage>
+            <Image>71</Image>
+            <Text xml:space="preserve">New Button</Text>
+            <Height>38</Height>
+            <Locked>False</Locked>
+            <Width>78</Width>
+            <Left>282</Left>
+            <Top>329</Top>
+            <ZOrder>2</ZOrder>
+            <ID>2</ID>
+            <Name>bStart</Name>
           </GUIButton>
         </Controls>
       </GUIMain>
@@ -1875,7 +1963,7 @@
         <IdleView>1</IdleView>
         <ThinkingView>0</ThinkingView>
         <BlinkingView>0</BlinkingView>
-        <StartingRoom>0</StartingRoom>
+        <StartingRoom>999</StartingRoom>
         <StartX>457</StartX>
         <StartY>467</StartY>
         <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2760,6 +2848,26 @@ return
                   <FileName>J:\sebaadventure_work\room\0(pokój seby)\ending_kartka.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="4" Width="89" Height="38" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\999(title)\opcje.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="5" Width="95" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\999(title)\quit.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="71" Width="77" Height="36" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\999(title)\start.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="72" Width="640" Height="480" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\999(title)\title_bg.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -3218,7 +3326,9 @@ return
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>4</ViewID>
+    </DeletedViews>
     <Scripts>
       <Script>
         <FileName>KeyboardMovement_102.ash</FileName>
@@ -3279,7 +3389,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 01:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_klatka.ogg</SourceFileName>
@@ -3291,7 +3401,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 01:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_pokoj1.ogg</SourceFileName>
@@ -3303,7 +3413,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 01:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_pokoj2_niemagaly.ogg</SourceFileName>
@@ -3315,7 +3425,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 01:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
