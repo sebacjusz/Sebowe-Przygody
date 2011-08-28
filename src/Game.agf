@@ -618,6 +618,10 @@
         <Number>999</Number>
         <Description>title</Description>
       </UnloadedRoom>
+      <UnloadedRoom>
+        <Number>3</Number>
+        <Description>przedpokój</Description>
+      </UnloadedRoom>
     </Rooms>
     <GUIs>
       <GUIMain>
@@ -1963,7 +1967,7 @@
         <IdleView>1</IdleView>
         <ThinkingView>0</ThinkingView>
         <BlinkingView>0</BlinkingView>
-        <StartingRoom>999</StartingRoom>
+        <StartingRoom>3</StartingRoom>
         <StartX>457</StartX>
         <StartY>467</StartY>
         <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2503,6 +2507,11 @@ return
               <Sprite Slot="58" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>J:\sebaadventure_work\room\0(pokój seby)\karteczka.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="73" Width="124" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\3(przedpokoj)\drzwi.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -3389,7 +3398,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_klatka.ogg</SourceFileName>
@@ -3401,7 +3410,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_pokoj1.ogg</SourceFileName>
@@ -3413,7 +3422,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_pokoj2_niemagaly.ogg</SourceFileName>
@@ -3425,7 +3434,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-22 22:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
