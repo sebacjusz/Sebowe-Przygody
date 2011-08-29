@@ -68,7 +68,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Seba Adventure</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>4</AudioIndexer>
+      <AudioIndexer>5</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -875,8 +875,8 @@
         </NormalGUI>
         <Controls>
           <GUIInventory>
-            <ItemWidth>40</ItemWidth>
-            <ItemHeight>22</ItemHeight>
+            <ItemWidth>64</ItemWidth>
+            <ItemHeight>50</ItemHeight>
             <CharacterID>-1</CharacterID>
             <Height>212</Height>
             <Locked>False</Locked>
@@ -1792,6 +1792,42 @@
           <Event Index="4" />
         </Interactions>
       </InventoryItem>
+      <InventoryItem>
+        <ID>4</ID>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
+        <PlayerStartsWithItem>False</PlayerStartsWithItem>
+        <CursorImage>76</CursorImage>
+        <Image>74</Image>
+        <Description xml:space="preserve">New inventory item</Description>
+        <Name>iKlucze</Name>
+        <Properties />
+        <Interactions>
+          <Event Index="0">iKlucze_Look</Event>
+          <Event Index="1" />
+          <Event Index="2" />
+          <Event Index="3" />
+          <Event Index="4" />
+        </Interactions>
+      </InventoryItem>
+      <InventoryItem>
+        <ID>5</ID>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
+        <PlayerStartsWithItem>False</PlayerStartsWithItem>
+        <CursorImage>77</CursorImage>
+        <Image>75</Image>
+        <Description xml:space="preserve">New inventory item</Description>
+        <Name>iPortfel</Name>
+        <Properties />
+        <Interactions>
+          <Event Index="0" />
+          <Event Index="1" />
+          <Event Index="2" />
+          <Event Index="3" />
+          <Event Index="4" />
+        </Interactions>
+      </InventoryItem>
     </InventoryItems>
     <TextParser>
       <Words>
@@ -2514,6 +2550,16 @@ return
                   <FileName>J:\sebaadventure_work\room\3(przedpokoj)\drzwi.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="78" Width="7" Height="13" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\3(przedpokoj)\klucze.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="79" Width="25" Height="14" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\room\3(przedpokoj)\portfel.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="inventory">
@@ -2524,6 +2570,16 @@ return
                   <Sprite Slot="1" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                     <Source>
                       <FileName>J:\sebaadventure_work\inventory\cur\karteczka.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="76" Width="26" Height="27" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>J:\sebaadventure_work\inventory\cur\klucze.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="77" Width="26" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>J:\sebaadventure_work\inventory\cur\portfel.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -2548,6 +2604,16 @@ return
               <Sprite Slot="12" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>J:\sebaadventure_work\inventory\scyzor.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="56" Height="59" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\inventory\klucze.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="75" Width="56" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>J:\sebaadventure_work\inventory\portfel.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -3398,7 +3464,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_klatka.ogg</SourceFileName>
@@ -3410,7 +3476,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_pokoj1.ogg</SourceFileName>
@@ -3422,7 +3488,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>J:\sebaadventure_work\music\seba_pokoj2_niemagaly.ogg</SourceFileName>
@@ -3434,7 +3500,19 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2011-02-23 00:25:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2011-02-22 21:25:08Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>J:\sebaadventure_work\music\seba_przedpokoj.ogg</SourceFileName>
+                <ScriptName>aSeba_przedpokoj</ScriptName>
+                <Index>5</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2011-08-28 17:28:42Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
